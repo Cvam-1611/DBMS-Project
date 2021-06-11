@@ -15,8 +15,8 @@ Database contains three tables namely
 3. Mov_review(contains reviews and corresponding rating)
 
 ## Machine Learning Model
-To ML model was trained using a movie review dataset which contains reviews with its corresponding rating.
-The testing was done on 5 classification algorithm namely
+A movie review dataset was used to train the machine learning model, which comprises reviews and their related ratings.
+The training/testing was done on 5 classification algorithm namely
 1. **Logistic Regression**
 2. **SVC Classifier**
 3. **Random Forest Classifier**
@@ -24,7 +24,7 @@ The testing was done on 5 classification algorithm namely
 5. **Naive Bayes**
 6. **XgBoost**
 
-**The SVC classifier has performed well with an accuracy of 63.27%**\
+**The SVC classifier has performed well with an accuracy of 63.27%**
 
 ## Link
 [Demo Video](https://drive.google.com/file/d/1_VDI0W8JmVi_S0YHI70DXqi_WbiQZlPc/view?usp=sharing)
