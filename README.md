@@ -8,7 +8,11 @@ Smart Movie Review System is a Web application through which a person can give r
 This web application has been built using **FLASK** framework
 
 ## Database
-**MySQL**
+**Language : MySQL**
+Database contains three tables namely
+1. Accounts(contains details of all users)
+2. Movie(contains details of all movies)
+3. Mov_review(contains reviews and corresponding rating)
 
 ## Machine Learning Model
 To ML model was trained using a movie review dataset which contains reviews with its corresponding rating.
