@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Registrants</title>
+	</head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Register.css') }}">
+    
+	<body>
+        <div class="topnav">
+            <nav>
+                <a href="http://127.0.0.1:5000/">Home</a>
+                <a href="/aboutus">About Us</a>
+            </nav>
+        </div>
+        
+        <div class="register">
+            <h1>Please Register yourself </h1>
+            <form method="POST" action="/register">
+                <input type="text" name="username" placeholder="Enter a username">
+                <input type="password" name="password" placeholder="Enter a password">
+                <input type="text" name="name" placeholder="Enter your Full name">
+                <input type="text" name="age" placeholder="Enter your age">
+                <input type="text" name="gender" placeholder="Write M or F or O">
+                <input type="text" name="city" placeholder="Enter your city name">
+                <input class="btn" type="submit">   
+                <div class="msg">{{msg}}</div> 
+            </form>
+        </div>
+        
+        
+		
+	</body>
+</html>

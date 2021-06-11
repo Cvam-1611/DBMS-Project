@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='movies.css') }}">
+</head>
+<body>
+    <!-- <select name="movies" ></select> -->
+    <!-- <option value="{{m}}"> -->
+        <!-- {{each}}</option> -->
+    <div class="content">
+        <h1>MOVIES</h1>
+
+    </div>
+    
+    <div class="menu">
+        <form class="movies" method="POST" action="/list">  
+            <select class="movie" id="movieDropdownSelector" type="text" name="movieDropdown" placeholder="Select A Movie">
+                
+                    <<option  disabled selected>Select a Movie</option>
+                    {% for movie in moviedetails  %}
+                        <option class="list" id={{movie['mov_id']}} value={{movie['mov_id']}}>{{movie['mov_name']}}</option>
+                    {%endfor%}
+            </select>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+    </div>
+    
+    
+</body>
+</html>

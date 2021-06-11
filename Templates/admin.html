@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin.css') }}">
+ 
+</head>
+<body>
+    <div class="topnav">
+        <nav>
+            <a href="http://127.0.0.1:5000/">Home</a>
+            
+            <a href="/aboutus">About Us</a>
+        </nav>
+    </div>
+    <div class="fill">
+        <form action="/addmovies" method="post">
+            <p>movie name</p>
+            <input type="text" name="movie_name" placeholder="Enter Movie Name" required="required"/>
+            <p>Release date</p>
+            <input type="date" name="release_date" placeholder="DD/MM/YYYY" required="required"/>
+            <p>actor</p>
+            <input type="text" name="actor" placeholder="Enter Actor name" required="required"/>
+            <p>Image link</p>
+            <input type="text" name="img" placeholder="Enter Image Link" required="required"/>
+            <p>Description</p>
+            <input type="text" name="Description" placeholder="Enter the Description " required="required"/>
+            <div class="msg">
+                {{msg}}
+            </div>
+            <input class="btn" type="submit" name="" value="Add Movie">
+        </form>   
+
+    </div>
+    
+</body>
+</html>

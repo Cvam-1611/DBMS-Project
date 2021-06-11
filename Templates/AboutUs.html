@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='AboutUs.css') }}">
+    
+    </head>
+    <body>
+        <div class="topnav">
+            <nav>
+                <a href="http://127.0.0.1:5000/">Home</a>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>ABOUT US</h1>
+            Smart Movie Review System is a Web application through which a person can give reviews for different movies. The review is then
+            subjected to a sentiment analysis, which determines if the review is Highly Negative, Negative, Neutral, Positive, or
+            Highly Positive, and assigns a rating accordingly, all of this occurs in real time.
+        </div>
+        <div class="table">
+            <table boder=1px>
+                <tr>
+                    <th>Sentiment</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>Highly Negative</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Negative</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Neutral</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Positive</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Highly Positive</td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMRS-HOME-PAGE</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='homepage.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="topnav">
+    <nav>
+        <a href="http://127.0.0.1:5000/">Home</a>
+        <a href="/aboutus">About Us</a>
+    </nav>
+</div>
+      <div class="row">
+        <div class="col-md-8">
+
+          <!-- carousel starts here -->
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{{ url_for('static', filename='homepage4.jpg') }}" width="1400" height="620"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome To Smart Movie Review System</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="{{ url_for('static', filename='homepage.jpg') }}" width="900" height="620" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>The Best Place To Give Reviews</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="{{ url_for('static', filename='homepage8.jpg') }}"width="1400" height="620" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Sit Back And Relax!!</h3>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+            <!-- carousel ends here -->
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="loginbox">
+            <image src="{{ url_for('static', filename='avatar.jpg') }}" class="avatar"></image>
+            <h1>Login Here</h1> 
+            <form action="/login" method="post">
+                <p>Username</p>
+                <input type="text" name="username" placeholder="Enter username">
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Enter Password">
+                
+                <div class="msg">
+                    {{msg}}
+                </div>
+                <input type="submit" name="" value="login">
+            </form>   
+            <A href="http://127.0.0.1:5000/register">Register</A>       
+          </div>
+        </div>
+
+      </div>
+
+    
+    
+  <div class="footer">
+      Copyright © All Rights Reserved
+  </div>
+
+</body>
+</html>
