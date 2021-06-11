@@ -24,4 +24,8 @@ The testing was done on 5 classification algorithm namely
 5. **Naive Bayes**
 6. **XgBoost**
 
-**The SVC classifier has performed well with an accuracy of 63.27%**
+**The SVC classifier has performed well with an accuracy of 63.27%** \
+
+##Link
+[Demo Video](https://drive.google.com/file/d/1_VDI0W8JmVi_S0YHI70DXqi_WbiQZlPc/view?usp=sharing)
+
