@@ -11,4 +11,13 @@ This web application has been built using **FLASK** framework
 **MySQL**
 
 ## Machine Learning Model
-Sentiment 
+To ML model was trained using a movie review dataset which contains reviews with its corresponding rating.
+The testing was done on 5 classification algorithm namely
+1. **Logistic Regression**
+2. **SVC Classifier**
+3. **Random Forest Classifier**
+4. **K Nearest Neighbour**
+5. **Naive Bayes**
+6. **XgBoost**
+
+**The SVC classifier has performed well with an accuracy of 63.27%**
