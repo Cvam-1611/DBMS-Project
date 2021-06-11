@@ -1,0 +1,91 @@
+body{
+    background: url('admin.jpg');
+    background-size:cover;
+    
+    
+}
+*{
+    margin: 0;padding: 0;
+}
+.topnav {
+    background:rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.fill{
+    
+    width:1000px !important;
+    height:600px !important;
+    background:rgba(0, 0, 0, 0.5) !important;
+    color: white !important;
+    /* top:%; */
+    left:10% !important;
+    border-radius:50px !important;
+    border-style:dotted !important;
+    position:absolute !important;
+    /* transform: translate(50px,200px); */
+    box-sizing: border-box !important;
+    padding-left: 130px !important;
+    padding-bottom: 80px!important;
+    padding-top: 50px;
+    margin-left: 45px !important;
+    margin-top: 10px !important;
+    /* margin-bottom: 10px !important; */
+    font-size: 23px !important;
+    font-weight: bold !important;
+
+}
+::placeholder{
+    color:grey;
+}
+.fill input[name="movie_name"], 
+.fill input[name="release_date"],
+.fill input[name="actor"],
+.fill input[name="img"],
+.fill input[name="Description"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:none;
+    height:40px;
+    color:white;
+    width: 80%;
+    font-size:20px;
+    margin-bottom:30px;
+    /* padding-bottom:10px; */
+    
+    
+    
+}
+.btn{
+    position:absolute !important;
+    top:540px !important;
+    left:400px !important;
+    width: 10vw !important;
+    background-color: #ec4897 !important;
+    font-family:monospace;
+    font-size: 1.2vw;
+    font-weight: 700;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    height: 40px;
+
+}

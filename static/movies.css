@@ -1,0 +1,41 @@
+body{
+    background-image: url("movie.jpg");
+    background-size:cover;
+
+}
+.content{
+    position:absolute;
+    color: white;
+    top:30%;
+    left:60%;
+}
+.menu{
+    position:relative
+}
+.movie{
+    width:480px;
+    height:50px;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    font-family:monospace;
+    position:absolute;
+    top:300px;
+    left:700px;
+    padding-left: 10%;
+}
+
+.btn{
+    position:absolute;
+    top:300px;
+    left:1200px;
+    width: 10vw;
+    background-color: #ec4897;
+    font-family:monospace;
+    font-size: 1.8vw;
+    font-weight: 700;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    height: 50px;
+
+}

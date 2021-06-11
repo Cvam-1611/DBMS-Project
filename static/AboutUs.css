@@ -1,0 +1,86 @@
+body{
+    background: url('About5.jpg')!important;
+    background-size: cover !important;
+}
+.topnav {
+    background:rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.content{
+    /* color:white; */
+    width:643px !important;
+    height:600px !important;
+    background:transparent;
+    color: white!important;
+    /* top:%; */
+    left:10% !important;
+    border-radius:50px !important;
+    border-style:dotted !important;
+    position:absolute !important;
+    /* transform: translate(50px,200px); */
+    box-sizing: border-box !important;
+    padding-left: 42px !important;
+    padding-bottom: 80px!important;
+    padding-top: 0px;
+    margin-left: 516px !important;
+    margin-top: 10px !important;
+    /* margin-bottom: 10px !important; */
+    font-size: 20px !important;
+    font-family:monospace;
+}
+.table{
+    
+    height: 265px;
+    width: 500px;
+    margin-top: 320px;
+    margin-left: 725px;
+    margin-bottom: 90px;
+    position: absolute;
+    border-style: solid white;  
+    border-radius: 10px;
+    background-color: white;
+
+
+}
+td:nth-child(1) 
+{
+    background: hsl(19deg 86% 58%);
+    height:40px;
+    width: 250px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+}
+td:nth-child(2) { 
+    background: hsl(30deg 87% 69%);
+    width: 250px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bolder;
+}
+th
+{
+    background:white;
+    color: black;
+    font-family: monospace;
+    font-size: 21px;
+}

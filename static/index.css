@@ -1,0 +1,97 @@
+body{
+    background-color:rgb(144 217 150) !important;
+    
+}
+.topnav {
+    background:transparent);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.card{
+    margin-top:20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+
+    width: 100px;
+}
+
+.details{
+    width:300px;
+}
+.table{
+    position:absolute;
+    top:166px;
+    left: 20px;
+    right:20px;
+
+}
+.review{
+    margin-bottom:30px ;
+    margin-right: 10px;
+    width: 90%;
+    float:left;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 100px;
+    
+}
+
+.right{
+    position: relative;
+    padding-right: 10px;
+}
+.rating{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    font-style: italic;
+    
+
+}
+.predict{
+    position: absolute;
+    margin-top: 0px;
+    top:95px;
+    left:89px;
+}
+.enter{
+    width:500px;
+    height:40px;
+    border-radius: 50px;
+    font-size: 1.5vw;
+    font-family:monospace;
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
+}
+
+
+.btn{ 
+    width: 7vw !important;
+    background-color:#ec4897 !important;
+    font-family:monospace;
+    font-size: 1.8vw;
+    font-weight: 700;
+    border-radius: 50px;
+    color: white !important;
+    border: none;
+    border-radius: 40px !important;
+    height: 40px;
+
+}
