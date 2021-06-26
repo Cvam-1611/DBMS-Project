@@ -7,6 +7,11 @@ Smart Movie Review System is a Web application through which a person can give r
 ## Framework
 This web application has been built using **FLASK** framework
 
+## Components for Front End
+1. HTML
+2. CSS
+3. Bootstrap
+
 ## Database
 **Language : MySQL** \
 Database contains three tables namely
