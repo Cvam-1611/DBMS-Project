@@ -22,7 +22,7 @@ Database contains three tables namely
 ## Machine Learning Model
 A movie review dataset was used to train the machine learning model, which comprises reviews and their related ratings.
 The training/testing was done on 5 classification algorithm namely
-1. **SVC Classifier**
+1. **SVM Classifier**
 2. **Random Forest Classifier**
 3. **K Nearest Neighbour**
 4. **Naive Bayes**
