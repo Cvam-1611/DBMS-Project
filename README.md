@@ -26,7 +26,7 @@ The training/testing was done on 5 classification algorithm namely
 2. **Random Forest Classifier**
 3. **K Nearest Neighbour**
 4. **Naive Bayes**
-5. **XgBoost**
+
 
 **The SVC classifier has performed well with an accuracy of 63.27%**
 
