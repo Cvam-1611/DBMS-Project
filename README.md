@@ -22,12 +22,11 @@ Database contains three tables namely
 ## Machine Learning Model
 A movie review dataset was used to train the machine learning model, which comprises reviews and their related ratings.
 The training/testing was done on 5 classification algorithm namely
-1. **Logistic Regression**
-2. **SVC Classifier**
-3. **Random Forest Classifier**
-4. **K Nearest Neighbour**
-5. **Naive Bayes**
-6. **XgBoost**
+1. **SVC Classifier**
+2. **Random Forest Classifier**
+3. **K Nearest Neighbour**
+4. **Naive Bayes**
+5. **XgBoost**
 
 **The SVC classifier has performed well with an accuracy of 63.27%**
 
